@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AMap3DMap (6.8.1):
+    - AMapFoundation (~> 1.5)
+  - AMapFoundation (1.5.6)
+  - AMapSearch (6.6.0):
+    - AMapFoundation (~> 1.4)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - AMap3DMap
+  - AMapSearch
+  - Masonry
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - AMap3DMap
+    - AMapFoundation
+    - AMapSearch
+    - Masonry
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AMap3DMap: 9fa4ec6ab230bfbd3f0c0834f757fbd7038efe53
+  AMapFoundation: 20fce2a12cd152e1092afdd04379cdac21932185
+  AMapSearch: def5983c8ca1a6d7430970046dc814f6e337621d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: fbd327aae835e0cd4ab536e1efcd3e85ab350aac
+
+COCOAPODS: 1.7.0
